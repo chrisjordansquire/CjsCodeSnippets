@@ -1,0 +1,7 @@
+
+
+
+object PrimeGenerator{
+	primes=
+
+	def 

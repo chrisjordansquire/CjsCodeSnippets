@@ -1,0 +1,7 @@
+CC=gcc
+PyHEADERS=/System/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6/
+PyLIB=/usr/lib/python2.6/config/libpython2.6.dylib
+
+program:
+	$(CC) -I$(PyHEADERS) $(PyLIB) embed.c
+
