@@ -1,6 +1,6 @@
 ; This does a single iteration of Newton's method for square roots 
 ; The comands to build, compile/link, and run are
-; nasm -fmacho64 add_integers.s
+; nasm -fmacho64 newton.s
 ; gcc add_integers.o
 ; ./a.out 4 10 3
 
